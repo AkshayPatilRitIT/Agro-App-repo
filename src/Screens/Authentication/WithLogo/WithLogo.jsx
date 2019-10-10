@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import "./WithLogo.css";
 class WithLogo extends Component {
   render() {
     return (
