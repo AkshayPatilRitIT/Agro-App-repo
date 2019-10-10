@@ -1,3 +1,4 @@
 import WithLogo from "./WithLogo";
+import Login from "./Login";
 
-export { WithLogo };
+export { WithLogo, Login };

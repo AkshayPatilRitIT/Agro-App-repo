@@ -1,0 +1,29 @@
+.Authentication__navbar__wrapper {
+  border: 1px solid rgb(32, 211, 102);
+  padding: 5px;
+}
+.Authentication__navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+.Authentication__navbar__list {
+  display: flex;
+}
+.Authentication__navbar__link {
+  margin: 5px 20px 0 20px;
+}
+.Authentication__navbar__brandname {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 20px;
+  color: rgb(32, 211, 102);
+}
+.Authentication__navbar__btn__post__add {
+  background: rgb(32, 211, 102);
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}

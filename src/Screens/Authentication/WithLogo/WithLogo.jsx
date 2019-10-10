@@ -7,6 +7,7 @@ class WithLogo extends Component {
     return (
       <div>
         <Navbar />
+        <div>{this.props.children}</div>
       </div>
     );
   }
