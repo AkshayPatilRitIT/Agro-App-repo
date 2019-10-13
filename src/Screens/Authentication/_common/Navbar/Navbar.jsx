@@ -33,7 +33,7 @@ class Navbar extends Component {
   };
 
   render() {
-    console.log("height", this.state.height, "width", this.state.width);
+    // console.log("height", this.state.height, "width", this.state.width);
     return (
       <div className="Authentication__navbar__wrapper">
         <div className="Authentication__navbar__container">
