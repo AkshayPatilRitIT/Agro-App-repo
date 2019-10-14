@@ -1,46 +1,44 @@
-.Authentication__Login__wrapper {
-  margin-top: 50px;
+.Authentication__register__wrapper {
+  margin: 20px 0;
+}
+.Authentication__register__container {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.Authentication__Login__container {
-  width: 460px;
+
+.Authentication__register__block {
   border: 1px solid #eee;
   border-radius: 5px;
+  width: 460px;
 }
-
-.Authentication__Login__title {
+.Authentication__register__title {
   color: #20d366;
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
 }
-.Authentication__Login__input__field__block {
+
+.Authentication__register__input__field__block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
-.Authentication__Login__input__field {
+.Authentication__register__input__field {
   width: 300px;
 }
-.Authentication__Login__error__msg {
+
+.Authentication__register__error__msg {
   color: red;
 }
-.Authentication__Login__btn__block {
+.Authentication__register__btn__block {
   text-align: center;
   margin: 30px 0;
 }
-.Authentication__Login__link {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.Authentication__Login__btn {
-  /* background-color: #26a69a; */
+.Authentication__register__btn {
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
@@ -52,17 +50,13 @@
   height: 40px;
   background: #20d366;
   padding: 7px 16px;
-  /* background-color: #26a69a !important; */
 }
 
-button:focus {
-  background-color: #2ab7a9 !important;
-}
-@media screen and (max-width: 525px) {
-  .Authentication__Login__container {
+@media screen and (max-width: 768px) {
+  .Authentication__register__block {
     width: 300px;
   }
-  .Authentication__Login__input__field {
+  .Authentication__register__input__field {
     width: 250px;
   }
 }

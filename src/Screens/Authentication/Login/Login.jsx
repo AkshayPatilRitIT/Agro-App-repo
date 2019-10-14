@@ -73,8 +73,7 @@ class Login extends Component {
                       className="Authentication__Login__btn"
                       type="submit"
                     >
-                      Submit
-                      <i className="material-icons right">send</i>
+                      Login
                     </button>
                   </div>
                   <div className="Authentication__Login__link">
