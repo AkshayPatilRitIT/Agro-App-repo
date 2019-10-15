@@ -3,7 +3,8 @@ import {
   Login,
   Register,
   ForgotPassword,
-  ResetPassword
+  ResetPassword,
+  OTP
 } from "./Screens/Authentication";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
             name="forgotpassword"
             component={ForgotPassword}
           />
+          <Route path="/otp" name="otp" component={OTP} />
         </Switch>
       </Router>
     </div>

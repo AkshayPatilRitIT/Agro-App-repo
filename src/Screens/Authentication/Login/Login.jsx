@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
+import { Link } from "react-router-dom";
 
 import WithLogo from "../WithLogo";
 
@@ -77,7 +78,15 @@ class Login extends Component {
                     </button>
                   </div>
                   <div className="Authentication__Login__link">
-                    Not Register? Register here
+                    Not Register?
+                    <Link
+                      to="/register"
+                      className="Authentication__Login__link__register"
+                    >
+                      {" "}
+                      Register{" "}
+                    </Link>
+                    here
                   </div>
                 </div>
               </div>

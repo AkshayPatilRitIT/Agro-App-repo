@@ -1,46 +1,46 @@
-.Authentication__Login__wrapper {
+.Authentication__otp__wrapper {
   margin-top: 50px;
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.Authentication__Login__container {
+
+.Authentication__otp__container {
   width: 460px;
   border: 1px solid #eee;
   border-radius: 5px;
 }
 
-.Authentication__Login__title {
+.Authentication__otp__title {
   color: #20d366;
   font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
 }
-.Authentication__Login__input__field__block {
+.Authentication__otp__input__field__block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
-.Authentication__Login__input__field {
+.Authentication__otp__input__field {
   width: 300px;
 }
-.Authentication__Login__error__msg {
+
+.Authentication__otp__error__msg {
   color: red;
 }
-.Authentication__Login__btn__block {
-  text-align: center;
-  margin: 30px 0;
-}
-.Authentication__Login__link {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-.Authentication__Login__btn {
-  /* background-color: #26a69a; */
+.Authentication__otp__instrution__line {
+  text-align: center;
+}
+.Authentication__otp__btn__block {
+  text-align: center;
+  margin: 20px 0;
+}
+.Authentication__otp__btn {
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
@@ -52,21 +52,13 @@
   height: 40px;
   background: #20d366;
   padding: 7px 16px;
-  /* background-color: #26a69a !important; */
 }
 
-button:focus {
-  background-color: #2ab7a9 !important;
-}
-
-.Authentication__Login__link__register {
-  color: #20d366;
-}
 @media screen and (max-width: 525px) {
-  .Authentication__Login__container {
+  .Authentication__otp__container {
     width: 300px;
   }
-  .Authentication__Login__input__field {
+  .Authentication__otp__input__field {
     width: 250px;
   }
 }
