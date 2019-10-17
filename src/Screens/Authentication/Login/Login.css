@@ -54,7 +54,13 @@
   padding: 7px 16px;
   /* background-color: #26a69a !important; */
 }
+.Authentication__Login__forgot__link {
+  text-align: center;
+}
 
+.Authentication__Login__forgot__link__password {
+  color: #20d366;
+}
 button:focus {
   background-color: #2ab7a9 !important;
 }

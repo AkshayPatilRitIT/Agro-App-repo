@@ -9,11 +9,11 @@
 .Footer__line {
   color: #20d366;
 }
-
+/* 
 @media screen and (min-width: 525px) {
   .Footer__wrapper {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-}
+} */

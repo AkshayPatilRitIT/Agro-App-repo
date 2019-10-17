@@ -8,7 +8,7 @@ class WithLogo extends Component {
       <div>
         <Navbar />
         <div className="WithLogo__children">{this.props.children}</div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

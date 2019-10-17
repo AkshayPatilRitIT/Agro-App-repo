@@ -68,7 +68,14 @@ class Login extends Component {
                       component="div"
                     />
                   </div>
-
+                  <div className="Authentication__Login__forgot__link">
+                    <Link
+                      to="/forgot_password"
+                      className="Authentication__Login__forgot__link__password"
+                    >
+                      Forgot password ?
+                    </Link>
+                  </div>
                   <div className="Authentication__Login__btn__block">
                     <button
                       className="Authentication__Login__btn"
